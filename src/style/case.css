@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.case {
+  width: 1440px;
+  height: 1402px;
+  background-color: #fff;
+  margin: auto;
+  padding: 80px 175px 80px 180px;
+}
+.studies {
+  font-family: Raleway;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 39.92px;
+  text-align: center;
+  color: #080808;
+}
+.solving {
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #9c9c9c;
+  width: 570px;
+  margin-left: 227px;
+  margin-top: 10px;
+}
+.case-block {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+.Fintech {
+  width: 72px;
+  height: 24px;
+  border-radius: 60px;
+  margin-top: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff6e9;
+}
+.Fintech p {
+  font-family: IBM Plex Mono;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #ffa217;
+}
+.work {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 28.18px;
+  text-align: left;
+  color: #080808;
+  margin-top: 20px;
+}
+.lorem {
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin-top: 10px;
+  width: 421px;
+  color: #9c9c9c;
+}
+.view {
+  width: 189.89px;
+  height: 38px;
+  border-radius: 4px;
+  border: none;
+  background-color: #ffa217;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.view:hover {
+  box-shadow: 0 0 15px 0 #ffa217;
+}
+.view a:nth-child(1) {
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.2px;
+  text-align: left;
+  color: #fff;
+}
+.view a:nth-child(2) {
+  color: #fff;
+  font-size: 10px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.case-block1 {
+  display: flex;
+  gap: 200px;
+  margin-top: 80px;
+}
+.EdTech {
+  width: 72px;
+  height: 24px;
+  border-radius: 60px;
+  margin-top: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d0e6ff;
+}
+.EdTech p {
+  font-family: IBM Plex Mono;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #000aff;
+}
+.view1 {
+  width: 189.89px;
+  height: 38px;
+  border-radius: 4px;
+  border: none;
+  background: #000aff;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.view1:hover {
+  box-shadow: 0 0 15px 0 #000aff;
+}
+.view1 a:nth-child(1) {
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.2px;
+  text-align: left;
+  color: #fff;
+}
+.view1 a:nth-child(2) {
+  color: #fff;
+  font-size: 10px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.case-block2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.Pharma {
+  width: 72px;
+  height: 24px;
+  border-radius: 60px;
+  margin-top: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0fff8;
+}
+.Pharma p {
+  font-family: IBM Plex Mono;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #2ab090;
+}
+.view2 {
+  width: 189.89px;
+  height: 38px;
+  border-radius: 4px;
+  border: none;
+  background: #2ab090;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.view2:hover {
+  box-shadow: 0 0 15px 0 #2ab090;
+}
+.view2 a:nth-child(1) {
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.2px;
+  text-align: left;
+  color: #fff;
+}
+.view2 a:nth-child(2) {
+  color: #fff;
+  font-size: 10px;
+  margin-left: 5px;
+  font-weight: bold;
+}

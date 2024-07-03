@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footerunderline{
+    margin: auto;
+    width: 1440px;
+    height: 70px;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerunderline p{
+    font-family: IBM Plex Mono;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.2px;
+letter-spacing: 0.01em;
+text-align: center;
+color: #9c9c9c;
+}
+.footerunderline i{
+    color: red;
+    margin-left: 15px;
+}

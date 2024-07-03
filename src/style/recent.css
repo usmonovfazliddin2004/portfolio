@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.recent {
+  margin: auto;
+  width: 1440px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #fff;
+}
+.recent-view {
+  height: 676px;
+}
+.recent-view h1 {
+  font-family: Raleway;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 39.92px;
+  text-align: center;
+  color: #080808;
+}
+.solving1 {
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-left: 435px;
+  color: #9c9c9c;
+  width: 570px;
+  margin-top: 10px;
+}
+.recent-view-block {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+  justify-content: space-between;
+}
+.recent-view-block div h1 {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 28.18px;
+  text-align: left;
+  color: #080808;
+  margin-top: 40px;
+}
+.recent-view-block div p {
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  width: 421px;
+  margin-top: 20px;
+  color: #9c9c9c;
+}
+.recent-view-block div button {
+  width: 139.89px;
+  height: 38px;
+  background: #3f8e00;
+  border: 1px solid #62ba1b;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recent-view-block div button:hover {
+  box-shadow: 0 0 20px 0 #3f8e00;
+}
+.recent-view-block div button a:nth-child(1) {
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.2px;
+  text-align: left;
+  color: #fff;
+}
+.recent-view-block div button a:nth-child(2) {
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.2px;
+  color: #fff;
+  margin-left: 3px;
+  margin-top: 2px;
+}

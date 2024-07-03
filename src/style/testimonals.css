@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.testimonals {
+  margin: auto;
+  width: 1440px;
+  background: #080808;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.testimonals h1 {
+  font-family: Raleway;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 39.92px;
+  text-align: center;
+  color: #fff;
+}
+.lorem1 {
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #9c9c9c;
+  margin-top: 10px;
+  width: 570px;
+  margin-left: 435px;
+}
+.testimonals-block {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+.testimonals-block fieldset {
+  width: 445px;
+  height: 242px;
+  clip-path: polygon(
+    0% 100%,
+    50% 0%,
+    0% 0%,
+    0% 50%,
+    0% 100%,
+    70% 100%,
+    100% 50%,
+    50% 0%
+  );
+  border-radius: 6px;
+  margin-left: 150px;
+  margin-right: 150px;
+  border: 1px solid gray;
+  padding-top: 20px;
+}
+.testimonals-block fieldset legend {
+  font-family: Raleway;
+  font-size: 30px;
+  color: #fff;
+  margin-left: 20px;
+}
+.lorem2 {
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #9c9c9c;
+  width: 409px;
+  margin-left: 30px;
+}
+.testimonals-block-box {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.testimonals-block-box p {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.13px;
+  text-align: center;
+  color: #fff;
+  margin-top: 15px;
+}

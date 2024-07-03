@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: aliceblue;
+}
+.wrapper {
+  background: #080808;
+  margin: auto;
+  width: 1440px;
+  height: 700px;
+  padding-left: 85px;
+  padding-right: 85px;
+}
+.navbar {
+  width: 100%;
+  height: 70px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: #1b1b1b;
+  padding: 24px 95.46px 28px 95px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul:nth-child(1) {
+  display: flex;
+  gap: 80px;
+  list-style: none;
+}
+.navbar ul:nth-child(1) li a {
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #9c9c9c;
+}
+.navbar ul:nth-child(1) li a:hover {
+  color: aqua;
+  text-shadow: 0 0 15px aqua;
+}
+.navbar ul:nth-child(2) li a {
+  font-size: 20px;
+  color: #9c9c9c;
+}
+.navbar ul:nth-child(2) li a:hover {
+  color: aqua;
+  box-shadow: 0 0 20px 0 aqua;
+}
+.navbar ul:nth-child(2) {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.main {
+  display: flex;
+  padding-top: 80px;
+  padding-left: 85px;
+  padding-right: 85px;
+  justify-content: space-between;
+}
+.main div:nth-child(1) h1 {
+  font-family: Raleway;
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 51.66px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 61px;
+}
+.main div:nth-child(1) p {
+  width: 492px;
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #9c9c9c;
+  margin-top: 10px;
+}
+.main div:nth-child(1) button {
+  width: 307.89px;
+  height: 63px;
+  padding: 21px 64px 21px 64px;
+  background: #3f8e00;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  margin-top: 30px;
+  display: flex;
+  gap: 2px;
+  cursor: pointer;
+}
+.main div:nth-child(1) button:hover {
+  box-shadow: 0 0 20px 0 #3f8e00;
+}
+.main div:nth-child(1) button a {
+  font-family: IBM Plex Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.8px;
+  text-align: left;
+  color: #fff;
+}
+.main div:nth-child(1) button i {
+  margin-top: 3px;
+  cursor: pointer;
+}
+.section p {
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+  color: #fff;
+  margin-top: 57px;
+}
+.section {
+  margin-left: 85px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 85px;
+  margin-top: 20px;
+}
+.buttons button {
+  width: 160px;
+  height: 60px;
+  border: 1px solid #1b1b1b;
+  border-radius: 6px;
+  background-color: #080808;
+  cursor: pointer;
+  position: relative;
+}
+.buttons button:hover {
+  box-shadow: 0 1px 0px 0 #fff, inset 0 5px 10px 0 #fff;
+}
